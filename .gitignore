@@ -11,3 +11,8 @@ wheels/
 
 # dataset
 dataset_processed_30
+
+# models
+*.pth
+
+.ipynb_checkpoints/
