@@ -1,0 +1,45 @@
+{
+  "condition": "frozen",
+  "model": "resnet50",
+  "weights": "IMAGENET1K_V2",
+  "split_seed": 42,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "best_val": 0.8142857142857143,
+      "test": 0.8102189781021898,
+      "best_epoch": 21
+    },
+    {
+      "seed": 1,
+      "best_val": 0.8214285714285714,
+      "test": 0.7956204379562044,
+      "best_epoch": 26
+    },
+    {
+      "seed": 2,
+      "best_val": 0.8071428571428572,
+      "test": 0.7883211678832117,
+      "best_epoch": 16
+    },
+    {
+      "seed": 3,
+      "best_val": 0.8214285714285714,
+      "test": 0.8029197080291971,
+      "best_epoch": 24
+    },
+    {
+      "seed": 4,
+      "best_val": 0.8142857142857143,
+      "test": 0.8175182481751825,
+      "best_epoch": 25
+    }
+  ]
+}

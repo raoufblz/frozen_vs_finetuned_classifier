@@ -1,0 +1,49 @@
+{
+  "condition": "finetuned",
+  "model": "resnet50",
+  "weights": "IMAGENET1K_V2",
+  "split_seed": 42,
+  "epochs": 40,
+  "head_epochs": 3,
+  "lr_head": 0.001,
+  "lr_backbone": 0.0001,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "best_val": 0.9571428571428572,
+      "test": 0.927007299270073,
+      "best_epoch": 14
+    },
+    {
+      "seed": 1,
+      "best_val": 0.95,
+      "test": 0.9416058394160584,
+      "best_epoch": 17
+    },
+    {
+      "seed": 2,
+      "best_val": 0.9571428571428572,
+      "test": 0.948905109489051,
+      "best_epoch": 29
+    },
+    {
+      "seed": 3,
+      "best_val": 0.9642857142857143,
+      "test": 0.9343065693430657,
+      "best_epoch": 33
+    },
+    {
+      "seed": 4,
+      "best_val": 0.9571428571428572,
+      "test": 0.9197080291970803,
+      "best_epoch": 23
+    }
+  ]
+}
